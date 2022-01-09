@@ -1,6 +1,7 @@
-nav{
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.nav{
     height: 50px;
-    background: blue;
+    background: orange;
 }
 .nav div{
     display: inline-block;
@@ -8,7 +9,7 @@ nav{
     left: 0;
     padding: 15px;
     font-size: 20px;
-    color: orange;
+    color: white;
 }
 .nav ul{
     position: absolute;
@@ -18,7 +19,7 @@ nav{
     display: inline-block;
 }
 .nav ul li a{
-    color: orange;
+    color: white;
     padding: 5px;
 }
 .home{
@@ -32,4 +33,5 @@ nav{
     align-items: center;
     justify-content: center;
     height: 90vh;
+    left: 50%; 
 }
